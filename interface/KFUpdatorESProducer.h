@@ -1,6 +1,14 @@
 #ifndef TrackingTools_ESProducers_KFUpdatorESProducer_h
 #define TrackingTools_ESProducers_KFUpdatorESProducer_h
 
+/** KFUpdatorESProducer
+ *  ESProducer for KFUpdator class.
+ *
+ *  $Date: 2007/05/09 10:13:49 $
+ *  $Revision: 1.1 $
+ *  \author cerati
+ */
+
 #include "FWCore/Framework/interface/ESProducer.h"
 #include "FWCore/ParameterSet/interface/ParameterSet.h"
 #include "TrackingTools/Records/interface/TrackingComponentsRecord.h"

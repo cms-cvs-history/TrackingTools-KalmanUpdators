@@ -1,11 +1,16 @@
 #ifndef CD_KFStripUpdator_H_
 #define CD_KFStripUpdator_H_
 
-#include "TrackingTools/PatternTools/interface/TrajectoryStateUpdator.h"
-
-/** A Kalman Updator that works in the measurement frame and uses
- *  both hit coordinates.
+/** \class KFStripUpdator
+ *  A Kalman Updator that works in the measurement frame and uses
+ *  both hit coordinates. Ported from ORCA.
+ *
+ *  $Date: 2007/05/09 10:13:49 $
+ *  $Revision: 1.1 $
+ *  \author todorov, cerati
  */
+
+#include "TrackingTools/PatternTools/interface/TrajectoryStateUpdator.h"
 
 class KFStripUpdator : public TrajectoryStateUpdator {
 
