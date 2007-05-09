@@ -1,11 +1,16 @@
 #ifndef CommonDet_Chi2MeasurementEstimatorBase_H
 #define CommonDet_Chi2MeasurementEstimatorBase_H
 
-#include "TrackingTools/PatternTools/interface/MeasurementEstimator.h"
-
-/** A base class for  Chi2 -- type of Measurement Estimators. 
- *  Implements common functionality.
+/** \class Chi2MeasurementEstimatorBase
+ *  A base class for  Chi2 -- type of Measurement Estimators. 
+ *  Implements common functionality. Ported from ORCA.
+ *
+ *  $Date: 2007/05/09 13:50:25 $
+ *  $Revision: 1.4 $
+ *  \author todorov, cerati
  */
+
+#include "TrackingTools/PatternTools/interface/MeasurementEstimator.h"
 
 class Chi2MeasurementEstimatorBase : public MeasurementEstimator {
 public:
