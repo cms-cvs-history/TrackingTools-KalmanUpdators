@@ -1,0 +1,3 @@
+es_module trackingRecHitPropagator = TrackingRecHitPropagatorESProducer{
+	string ComponentName = "trackingRecHitPropagator"
+} 

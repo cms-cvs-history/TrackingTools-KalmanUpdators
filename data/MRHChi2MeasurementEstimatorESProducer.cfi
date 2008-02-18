@@ -1,0 +1,6 @@
+es_module MRHChi2MeasurementEstimator = MRHChi2MeasurementEstimatorESProducer
+{
+  string ComponentName = "MRHChi2"
+  double MaxChi2 = 30.
+  double nSigma = 3.
+}
