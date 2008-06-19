@@ -1,6 +1,0 @@
-es_module Chi2MeasurementEstimator = Chi2MeasurementEstimatorESProducer
-{
-  string ComponentName = "Chi2"
-  double MaxChi2 = 30.
-  double nSigma = 3.
-}
