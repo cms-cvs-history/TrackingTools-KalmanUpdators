@@ -1,4 +1,0 @@
-es_module = KFUpdatorESProducer
-{
-  string ComponentName = "KFUpdator"
-}
