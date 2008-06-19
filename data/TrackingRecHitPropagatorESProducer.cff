@@ -1,5 +1,4 @@
 # magnetic field
-include "MagneticField/Engine/data/volumeBasedMagneticField.cfi"
 
 # hit propagator
 include "TrackingTools/KalmanUpdators/data/TrackingRecHitPropagatorESProducer.cfi"
