@@ -1,4 +1,0 @@
-# magnetic field
-
-# hit propagator
-include "TrackingTools/KalmanUpdators/data/TrackingRecHitPropagatorESProducer.cfi"
