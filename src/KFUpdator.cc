@@ -75,7 +75,7 @@ TrajectoryStateOnSurface KFUpdator::update(const TrajectoryStateOnSurface& tsos,
   AlgebraicSymMatrix55 fse = ROOT::Math::Similarity(M, C) + ROOT::Math::Similarity(K, V);
 
   return TrajectoryStateOnSurface( LocalTrajectoryParameters(fsv, pzSign),
-				   LocalTrajectoryError(fse), tsos.surface(),&(tsos.globalParameters().magneticField()));
+				   LocalTrajectoryError(fse), tsos.surface(),&(tsos.globalParameters().magneticField()), tsos.surfaceSide() );
 }
 #endif
 
@@ -118,6 +118,6 @@ TrajectoryStateOnSurface KFUpdator::update(const TrajectoryStateOnSurface& tsos,
   AlgebraicSymMatrix55 fse = ROOT::Math::Similarity(M, C) + ROOT::Math::Similarity(K, V);
 
   return TrajectoryStateOnSurface( LocalTrajectoryParameters(fsv, pzSign),
-				   LocalTrajectoryError(fse), tsos.surface(),&(tsos.globalParameters().magneticField()));
+				   LocalTrajectoryError(fse), tsos.surface(),&(tsos.globalParameters().magneticField()), tsos.surfaceSide() );
 }
 #endif
